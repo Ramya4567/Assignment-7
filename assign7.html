@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assign7.css">
+    <title>Wendy's Crazy Mad Libs Story!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mad Libs Game</h1>
+    </header>
+
+    <main>
+        <form id="madLibsForm">
+            <label for="nounName"> Person Name:
+            <input type="text" id="nounName" value="Ramya">
+            </label>
+
+            <label for="nounObject">Thing Name:
+            <input type="text" id="nounObject" value="Chain">
+            </label>
+
+            <label for="adjective">Adjective:
+            <input type="text" id="adjective" value="beautiful">
+            </label>
+            <label for="adverb">Adverb:
+            <input type="text" id="adverb" value="quickly">
+            </label>
+
+            <button type="button" id="generateStoryButton">Tell Story</button>
+        </form>
+
+        <div id="storyContainer"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+    <script src="assign7.js"></script>
+    
+</body>
+
+</html>
